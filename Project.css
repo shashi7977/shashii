@@ -1,0 +1,233 @@
+.right{
+            float: right;
+            width: 50%;
+
+        }
+         ul{
+            /* background-color: blue; */
+            height: 30px;
+            list-style: none;
+            
+        }
+         li{
+            float: left;
+            padding: 5px;
+            border-right: 1px solid;
+            
+        }
+        a{
+            padding: 5px;
+            display: block;
+          color: black;
+            text-decoration: none;
+            font-size: 1.5vw;
+            line-height: auto;
+            padding: 5px;
+            margin: 2px;
+            
+        }
+
+        a:hover,.home {
+          background-color: darkred;
+            font-size: 1.5vw;
+            line-height: auto;
+            padding: 5px;
+            margin: 2px;
+
+        }
+        .left{
+            display: flex;
+            float: left;
+            width: 50%;
+            height: 72px;
+        }
+        .search{
+            height: 30px;
+            width: 100px;
+            margin-top: 20px;
+            margin-left: 70px;
+        }
+
+        .mid{
+            width: 100%;
+            background-color: darkred;
+            height: 400px;
+            margin-top: 80px;
+            background-image: url("picture1.jpg");
+            background-size: cover;
+            animation-name: changeimage;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes changeimage{
+            0%{background-image: url(picture8.jpg);
+            }
+            25%{
+                background-image: url(picture2.jpg);
+            }
+            50%{
+                background-image: url(picture7.jpg);
+            }
+            75%{
+                background-image: url(picture4.jpg);
+            }
+            100%{background-image: url(picture1.jpg);
+                }
+            }
+        
+            .latest{
+                padding: 50px 100px;
+            }
+            .product-intro{
+                text-align: center;
+                padding: 40px 0;
+            }
+            .product-intro h1{
+                color: darkred;
+                letter-spacing: 0.2rem;
+                font-size: 2rem;
+                font-weight: bolder;
+            }
+            .product-intro h1 span{
+                color: black;
+            }
+            .product-intro p{
+                color: grey;
+                
+            }
+            .product-item-container{
+                display: flex;
+            }
+            .product-item{
+                padding: 0.8rem;
+                position: relative;
+            }
+            .product-item img{
+                width: 100%;
+                transition: 0.5s;
+            }
+            .product-item i{
+                color: orange;
+                margin: 5px 0;
+            }
+
+            .product-item button{
+                color: white;
+                background-color: black;
+            }
+            .product-item:hover img, .product-item h1:hover{
+                width: 80%;
+                color: darkred;
+            }
+            .rj:hover{
+                width: 200%;
+            }
+
+
+
+            .card-main{
+                width: 1360px;
+                display: flex;
+                text-align: center;
+                background-color: darkgray;
+
+            }
+            
+            .card1{
+                width: 340px;
+                height: 300px;
+              
+
+            }
+            .card2{
+                width: 340px;
+                height: 300px;
+                
+
+            }
+            .card3{
+                width: 340px;
+                height: 300px;
+                
+
+            }
+            .card4{
+                width:340;
+                height: 300px;
+            }
+            .footer-section{
+                display: flex;
+/*                width: 1360px;*/
+                background-color:gray;
+                height: 70px;
+            }
+
+            .footer1{
+/*               background-color: darkred;*/
+               width: 553px;
+               text-align: center;
+               line-height: 10px;
+            }
+            .footer1 h1{
+                color: darkred;
+                letter-spacing: 0.2rem;
+                font-size: 2rem;
+                font-weight: bolder;
+            }
+            .footer1 h1 span{
+                color: black;
+            }
+            .footer2{
+/*                background-color: greenyellow;*/
+                width: 553px;
+                text-align:center;
+
+            }
+            .footer3{
+/*                background-color: red;*/
+                width: 553px;
+                text-align: center;
+            }
+            .footer3 p{
+                margin-top: 30px;
+            }
+            .delivery-container{
+                display: flex;
+                background-color:darkgrey;
+                height: 300px;
+                width: 1360px;
+            }
+            .delivery-container1{
+                text-align: center;
+                width: 340px;
+                
+            }
+        .delivery-container1 h2 {
+                margin-top: 30px;
+                display: block;
+            }
+            .fa-truck{
+                margin-top: 100px;
+            }
+            .delivery-container2{
+                text-align: center;
+                width: 340px;
+            }
+            .delivery-container2 h2{
+                margin-top: 30px;
+                display: block;
+            }
+
+
+            .delivery-container3{
+                width: 340px;
+                text-align: center;
+            }
+            .delivery-container4{
+                text-align: center;
+                width: 340px;
+            }
+
+
+
